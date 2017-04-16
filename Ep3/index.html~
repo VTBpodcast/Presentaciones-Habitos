@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+				<h2>El funcionamiento del hábito</h2>
+				</section>
+				
+				<section>
+					<h3>¿Porqué es importante conocer el funcionamiento del Hábito?</h3>
+					<p class="fragment">Porque para ser organizado y mantenerlo en el tiempo es necesario desarrollar una serie de hábitos. No vale solo con querer y estar motivado.</p>
+					<br>
+					<p class="fragment">Porque de todas las acciones que realizas a lo largo del día más de un 40% son hábitos</p>
+		
+				</section> 				
+				
+				<section>
+					<h3>¿Qué es un hábito?</h3>
+					<p class="fragment">Una acción que se repite en el tiempo de forma periódica y que se realiza de forma automática</p>
+					<br>
+					<p class="fragment">De esta manera <span class="fragment highlight-red">el cerebro ahorra energía y esfuerzo</span>. Pudiéndoselo dedicar a otra cosa que requiera <span class="fragment highlight-blue">pensamiento, reflexión o creatividad</p>
+				</section>
+				
+				<section>
+				
+					<h3>Las rutinas automáticas</h3>
+					<p class="fragment">El cerebro convierte una secuencia de acciones en <span class="fragment highlight-red">rutinas automáticas</span></p>
+					<p class="fragment">y las almacena en <span class="fragment highlight-red">los Ganglios basales</span></p>
+					<p class="fragment">Cada rutina automática está asociada a una <span class="fragment highlight-blue">señal</span> y una <span class="fragment highlight-blue">recompensa</span></p>
+				</section>
+				
+				<section>
+				
+				<h3>El ciclo del hábito</h3>
+					<p class="fragment">Recibes una <span class="fragment highlight-red">señal</span></p>
+					<p class="fragment">Realizas una <span class="fragment highlight-blue">rutina</span></p>
+					<p class="fragment">Obtienes una <span class="fragment highlight-green">recompensa</span></p>
+					<br>
+					<p class="fragment">Para que llegue a ser un hábito ha de darse otro factor: <span class="fragment highlight-green">Deseo por la recompensa</span></p>
+				</section>
+				
+				<section >	
+					<img data-src="http://1.bp.blogspot.com/-aJz2AW5ltz4/UsmF7AxOgaI/AAAAAAAABos/7p9eb-EFsms/s1600/habitos.png">
+				</section>
+				
+				<section>
+				
+				<h3>Tipo de señales</h3>
+					<p class="fragment">Visuales (cosas)</p>
+					<p class="fragment">Lugares</p>
+					<p class="fragment">Personas</p>
+					<p class="fragment">Secuencias de pensamientos</p>
+					<p class="fragment">Acontecimientos</p>
+					<p class="fragment">Sonidos, melodias...</p>
+				</section>
+				
+				<section>
+				
+				<h3>Tipo de recompensas</h3>
+					<p class="fragment">Emocionales: orgullo, felicidad, reconocimiento...</p>
+					<p class="fragment">Comida: dulces, chocolate, comida rápida...</p>
+					<p class="fragment">Un baño caliente después de hacer ejercicio</p>
+					<p class="fragment">Ver una película</p>
+					<p class="fragment">Dar un paseo...</p>
+				</section>
+				
+				<section>
+					
+					<p class="fragment">Conociendo el Ciclo del hábito estás en disposición de poder crear hábitos nuevos y modificar los que tienes.</p>
+					<br>
+					<p class="fragment"><span class="fragment highlight-red">Conocerlos es el primer paso para avanzar hacia donde quieres.</span></p>
+		
+				</section> 			
+				
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+				
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
